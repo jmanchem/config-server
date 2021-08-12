@@ -5,8 +5,8 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/orlandoKuanDev/bootcamp-everis-project
+          uri: https://github.com/jmanchem/proyecto_02
           searchPaths: config-data
-          username: orlandojose.kuanbecerra@everis.nttdata.com
-          password: $$Anprog1
+          username: jmanchem@everis.com
+          password: AQPSoft123456
           cloneOnStart: true
