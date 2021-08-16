@@ -7,6 +7,6 @@ spring:
         git:
           uri: https://github.com/jmanchem/proyecto_02
           searchPaths: config-data
-          username: jmanchem@everis.com
-          password: AQPSoft123456
+          username: ${GIT_USER}
+          password: ${GIT_PASSWORD}
           cloneOnStart: true
