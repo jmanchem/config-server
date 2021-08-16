@@ -1,0 +1,12 @@
+server:
+  port: 8090
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/jmanchem/proyecto_02
+            searchPaths: config-data
+            username: ${GIT_USER}
+            password: ${GIT_PASSWORD}
+            cloneOnStart: true
