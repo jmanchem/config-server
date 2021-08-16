@@ -6,7 +6,7 @@ spring:
       server:
         git:
           uri: https://github.com/jmanchem/bootcamp-everis-jpomm
-            searchPaths: config-data
-            username: ${GIT_USER}
-            password: ${GIT_PASSWORD}
-            cloneOnStart: true
+          searchPaths: config-data
+          username: ${GIT_USER}
+          password: ${GIT_PASSWORD}
+          cloneOnStart: true
